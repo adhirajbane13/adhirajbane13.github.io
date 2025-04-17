@@ -57,11 +57,11 @@ function Header() {
           {<li>
             <a href="#education">Education</a>
           </li>}
-          {viewOpenSource && (
+          {/* {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
             </li>
-          )}
+          )} */}
           {viewAchievement && (
             <li>
               <a href="#achievements">Certifications</a>
@@ -77,11 +77,11 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
-          {/* {viewResume && (
+          {viewResume && (
             <li>
               <a href="#resume">Resume</a>
             </li>
-          )} */}
+          )}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
