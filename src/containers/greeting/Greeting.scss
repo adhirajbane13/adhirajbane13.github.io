@@ -53,9 +53,21 @@
   line-height: 40px;
 }
 
+.greeting-image-div {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 10px;  // 🔽 Reduce left padding
+  padding-right: 100px; // 🔽 Reduce right padding too
+}
+
 .greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+  margin-top: 60px;
 }
 
 .wave-emoji {

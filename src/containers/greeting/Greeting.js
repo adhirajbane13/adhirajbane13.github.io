@@ -42,7 +42,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
+                    href={require("./Adhiraj_CV.pdf")}
                     download="Resume.pdf"
                     className="download-link-button"
                   >
@@ -53,14 +53,24 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
+            {/* {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
               <img
                 alt="man sitting on table"
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
-            )}
+            )} */
+              <img
+              src={require("../../assets/images/adhiraj-hero.png")}
+              alt="Adhiraj Banerjee"
+              style={{
+                width: "100%",
+                maxWidth: "400px",
+                borderRadius: "12px",
+                boxShadow: "0 0 20px rgba(0,0,0,0.1)"
+              }}
+            />}
           </div>
         </div>
       </div>

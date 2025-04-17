@@ -20,129 +20,88 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Adhiraj Banerjee",
+  title: "Hi, I'm Adhiraj Banerjee 👋",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a data analyst and data scientist passionate about transforming complex data into actionable insights. From Data-driven Analytics dashboards to machine learning-driven strategies, I deliver data solutions that drive real-world outcomes."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "Adhiraj_CV.pdf", // Upload this PDF to your public folder
+  displayGreeting: true
 };
+
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/adhirajbane13",
+  linkedin: "https://www.linkedin.com/in/adhiraj-banerjee/",
+  gmail: "adhirajbane13@gmail.com", // Change this to your preferred contact email
+  gitlab: "", // leave empty if unused
+  facebook: "", // leave empty if unused
+  medium: "", // or "https://medium.com/@adhirajbanerjee" if applicable
+  stackoverflow: "", // optional
+  display: true
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Data Analyst & Data Scientist with a passion for building intelligent solutions through automation, visualization, and machine learning.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("📊 Design interactive dashboards and KPIs in Power BI and Tableau for real-time decision-making."),
+    emoji("⚙️ Automate ETL pipelines, SQL queries and data workflows using Python, SQL, and Docker."),
+    emoji("🧠 Apply machine learning to uncover patterns and automate predictions."),
+    emoji("🔎 Perform deep-dive exploratory data analysis (EDA) and statistical modelling to extract actionable insights."),
+    emoji("☁️ Work with big data technologies like Azure Databricks and PySpark for scalable analysis."),
+    emoji("📈 Create predictive models and ML algorithms to drive business growth."),
+    emoji("🎯 Translate data into impactful stories for non-technical stakeholders."),
+    emoji("💡 Develop end-to-end data projects from ideation to visualization.")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
+    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-pie" },
+    { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-robot" },
+    { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-brain" },
+    { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "Pandas", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "NumPy", fontAwesomeClassname: "fas fa-wave-square" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+    { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "The University of Sheffield",
+      logo: require("./assets/images/sheffieldLogo1.png"), // optional, or comment this line
+      subHeader: "MSc in Data Analytics (Distinction)",
+      duration: "September 2023 – November 2024",
+      desc: "Graduated with Distinction. Focused on machine learning, scalable computing, NLP, and AI applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Modules: Data Science with Python, Scalable Machine Learning (PySpark), NLP, GPU Computing",
+        "Project: Fine-tuned Vicuna LLM for Smart Home Automation — improved command accuracy by 7%, reduced execution errors by 30%"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "IIEST Shibpur (Indian Institute of Engineering Science and Technology)",
+      logo: require("./assets/images/iiest1.png"),
+      subHeader: "B.Tech in Electronics & Telecommunication Engineering (First Class with Honours)",
+      duration: "August 2018 – May 2022",
+      desc: "Built strong foundations in signal processing, communications, and embedded systems.",
+      descBullets: [
+        "Modules: DSP, Wireless Communications, Computer Vision",
+        "Project: Pulse Oximeter using Arduino and MAX30100 — designed during COVID-19 for healthcare monitoring"
+      ]
     }
   ]
 };
@@ -150,56 +109,93 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Python / Pandas / NumPy",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "SQL / PostgreSQL / Excel",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Power BI / Data Visualization",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Machine Learning / Scikit-learn",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Data Cleaning & ETL",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Deep Learning / Transformers",
+      progressPercentage: "65%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
+
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Scientist",
+      company: "The University of Sheffield",
+      companylogo: require("./assets/images/sheffieldLogo1.png"),
+      date: "Feb 2024 – Sept 2024",
+      desc: "Designed a hybrid financial forecasting system using Transformer-based models with Markowitz optimization. Delivered insights through Power BI dashboards and automated ETL pipelines, enhancing return predictions and data reliability.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Reduced data preparation time by 40% through automated Spark pipelines",
+        "Achieved 1.4x return vs. baseline with 0.877 RMSE using custom encoder-only Transformer",
+        "Visualized risk-return trade-offs using Power BI and Matplotlib for stakeholders"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Analyst",
+      company: "Cambium Networks",
+      companylogo: require("./assets/images/Cambium_Networks_logo.png"),
+      date: "Jun 2022 – Jul 2023",
+      desc: "Built and automated data pipelines to streamline RF test data extraction, analysis, and reporting. Enabled rapid performance insight delivery to engineering teams through visualizations and Excel dashboards.",
+      descBullets: [
+        "Improved data accuracy by 40% using Python + SCPI automation",
+        "Cut reporting time from 8 hours to 2 hours with robust SQL scripts",
+        "Enhanced stakeholder understanding via PivotChart-driven RF KPIs"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "ML Research Engineer",
+      company: "CSIR-CMERI",
+      companylogo: require("./assets/images/csir_cmeri_dgp_logo.png"),
+      date: "Jun 2021 – Oct 2021",
+      desc: "Developed a Gaussian Mixture Model-based speaker recognition system using MFCCs, achieving robust performance in noisy environments. Improved classification accuracy with optimized EM training.",
+      descBullets: [
+        "Built 96% accurate speaker ID model using scikit-learn and NumPy",
+        "Reduced errors by 20% with MFCC-based feature engineering",
+        "Enhanced model robustness using SciPy Wiener filters and noise variance analysis"
+      ]
+    },
+    {
+      role: "NLP-ML Engineer (Internship)",
+      company: "Tata Consultancy Services",
+      companylogo: require("./assets/images/tcs-logo.png"),
+      date: "May 2020 – Jul 2020",
+      desc: "Implemented a supervised NLP pipeline for grammatical error detection, enhancing accuracy via tokenization and feature engineering using SpaCy and LinearSVC.",
+      descBullets: [
+        "Boosted classification accuracy from 78% to 85% through custom token pipelines",
+        "Reduced false positives by 10% with lemmatization and text normalization",
+        "Improved end-to-end computational efficiency by 30%"
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -212,95 +208,120 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Featured Projects",
+  subtitle: "A selection of real-world analytics, AI, and ML projects I've built end-to-end.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nhs-logo1.png"),
+      projectName: "NHS A&E Performance Dashboard",
+      projectDesc:
+        "Built an interactive Power BI dashboard connected to PostgreSQL via Docker and Python ETL. Enables drill-down insights, KPI tracking, and real-time filtering for trust-wise NHS A&E metrics.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "GitHub",
+          url: "https://github.com/adhirajbane13/NHS_AandE_Performance_Analysis"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/tia.png"),
+      projectName: "Tender Intelligence Assistant",
+      projectDesc:
+        "Streamlit app using GPT-4, FAISS, and OpenAI embeddings for intelligent tender QA. Supports multi-PDF uploads, semantic search, and contextual PDF export with dynamic temperature tuning.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "GitHub",
+          url: "https://github.com/adhirajbane13/tender-response-generator-GenAI/tree/main"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/spamShieldLogo.png"), // Add any mail/spam icon or placeholder
+      projectName: "Deep Learning Spam Shield",
+      projectDesc:
+        "Developed a binary email spam classifier using TensorFlow, Keras, and TF-IDF vectorization. Optimized with Keras Tuner and evaluated via AUC, precision, and recall.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/adhirajbane13/Deep_Learning_Spam_Shield"
+        }
+      ]
+    },    
+    {
+      image: require("./assets/images/financeLogo.png"),
+      projectName: "Transformer-Enhanced Portfolio Optimisation",
+      projectDesc:
+        "Hybrid model integrating Transformer forecasting with Markowitz optimisation for Russell 2000 stocks. Delivered 1.4× return boost and 15% lower risk. Built on Azure Databricks and visualised via Power BI.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/adhirajbane13/Financial-Portfolio-Optimisation-Integrating-Transformers-with-the-Markowitz-Model"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/audioLogo.png"),
+      projectName: "Speaker Recognition with GMM",
+      projectDesc:
+        "Developed a MFCC + GMM-based speaker identification system with noise-robust EM training. Delivered >90% accuracy in clean and noisy conditions, validated at CSIR-CMERI lab.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/adhirajbane13/Gaussian-Mixture-Model-based-Speaker-Recognition"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Certifications 🏆"),
+  subtitle: "A selection of certifications showcasing my technical skills and continuous learning.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "SQL (Advanced)",
+      subtitle: "Issued by HackerRank, this certification validates advanced SQL query building and optimization skills.",
+      image: require("./assets/images/hackerrankLogo.png"),
+      imageAlt: "HackerRank Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Certificate",
+          url: "https://www.hackerrank.com/certificates/a2005f4c623d"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "DP-900: Microsoft Azure Data Fundamentals",
+      subtitle: "Covers foundational knowledge of core data concepts and Azure data services, with real-world use cases.",
+      image: require("./assets/images/azureLogo.png"),
+      imageAlt: "Microsoft Azure Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certificate",
+          url: "https://www.udemy.com/certificate/UC-2154c74b-2536-4007-b7b8-209daea6aa89/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "IoT Specialization",
+      subtitle: "An in-depth introduction to IoT systems development from University of California, Irvine via Coursera.",
+      image: require("./assets/images/UCI.png"),
+      imageAlt: "Coursera Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certificate",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/H8YYPEVNLNM9"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
@@ -324,7 +345,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +364,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +377,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,8 +393,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+44-7438720064",
+  email_address: "adhirajbane13@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +404,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
