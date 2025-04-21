@@ -227,7 +227,7 @@ const bigProjects = {
       image: require("./assets/images/tia.png"),
       projectName: "Tender Intelligence Assistant",
       projectDesc:
-        "Streamlit app using GPT-4, FAISS, and OpenAI embeddings for intelligent tender QA. Supports multi-PDF uploads, semantic search, and contextual PDF export with dynamic temperature tuning.",
+        "Streamlit app built as a Compound AI system leveraging GPT-4, FAISS, and OpenAI Embeddings for intelligent tender question answering. Combines semantic search, LLM-based reasoning, and document chunking to handle multi-PDF uploads, contextual QA, and exportable responses. Features include dynamic temperature tuning and contextual PDF export for explainable, domain-agnostic insights.",
       footerLink: [
         {
           name: "GitHub",
